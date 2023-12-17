@@ -1,0 +1,109 @@
+.box{
+    text-align: center;
+ color: white;
+    background: rgb(22, 13, 187);
+   background: linear-gradient(100deg, rgb(171, 146, 223) 0%, rgba(85,0,255,1) 35%);
+  width: 55%;
+  border-radius: 16px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+    
+}
+.dora{
+    display: flex;
+    flex-direction: column;
+    margin-left:200px;
+    width: 30%;
+    height: 125px;
+    border: 4px bold white;
+    border-radius: 60px;
+    background: rgba(24, 48, 129, 0.204);
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+   
+}
+.doar h1{
+    font-size: 130px;
+    font-weight: bolder;
+}
+.box p:nth-of-type(2){
+    margin-right: 10px;
+}
+.box2{
+    width: 40%;
+    flex-direction: column;
+    display: flex;
+    padding: 40px;
+   
+
+
+}
+.box2 .snade91 p:nth-of-type(2){
+    margin-left: 220px;
+}
+.box2 .snade92 p:nth-of-type(2){
+    margin-left: 220px;
+}
+.box2 .snade93 p:nth-of-type(2){
+    margin-left: 234px;
+
+}
+.box2 .snade94 p:nth-of-type(2){
+    margin-left: 235px;
+}
+.box2 .snade91 p span {
+    font-weight: bold;
+}
+.box2 .snade92 p span {
+    font-weight: bold;
+}
+.box2 .snade93 p span {
+    font-weight: bold;
+}
+.box2 .snade94 p span {
+    font-weight: bold;
+}
+.snade91{
+    display: flex;
+   background-color: hsla(0, 100%, 67%, 0.147);
+   margin-bottom: 10px;
+   border-radius: 6px;
+}
+.snade92{
+    display: flex;
+   background-color:  hsla(39, 100%, 56%, 0.174);
+   margin-bottom: 10px;
+   border-radius: 6px;
+}
+.snade93{
+    display: flex;
+    background-color:  hsla(166, 100%, 37%, 0.162);
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.snade94{
+    background-color:  hsla(234, 85%, 45%, 0.152);
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 30px;
+    margin-top: 25px;
+    padding: 25px;
+background-color:rgba(85,0,255,1);
+color: white;
+font-size: 18px;
+border-radius: 28px;
+
+}
